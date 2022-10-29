@@ -20,8 +20,8 @@ System => 後台相關
 
 
 +-------------------------------------------------------------------------+
-Add_Commodity_To_Shopping_Cart.php  =>  添加商品區購物車
-Clear_Shoppping_Cart.php            =>  結賬功能
-Main.php                            =>  前台首頁
-Shopping_Cart.php                   =>  購物車
+|  Add_Commodity_To_Shopping_Cart.php  =>  添加商品區購物車
+|  Clear_Shoppping_Cart.php            =>  結賬功能
+|  Main.php                            =>  前台首頁
+|  Shopping_Cart.php                   =>  購物車
 +-------------------------------------------------------------------------+
