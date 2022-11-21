@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<style type="text/css">
+body {
+background-color:#6E6E6E;
+width: 600px; 
+margin:10px auto;
+padding: 20px;
+margin-top:20px;
+border: 5px solid Thistle;
+width: 600px;
+line-height: 28px;
+color:snow;
+font-family:標楷體;
+}
+h1 {color:snow; text-align:center;}
+table {margin: 15px auto; border: 4px solid Thistle; width:420px;margin-top:30px;}
+td {text-align:left; padding:5px 10px;border:2px solid Thistle;}
+th {padding:5px 10px; color:ivory;}
+</style>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>UI</title>
+</head>
+<body>
+<form id="f1" name="f1" method="post" >
+<table>
+<tr><th style="color:DarkGoldenrod" >輸入要拍賣的商品</th></tr>
+<tr><td>商品id</td><td><input type="text" id="id" name="id" /></td></tr>
+<tr><td>商品名稱</td><td><input type="text" id="name" name="name"/></td></tr>
+<tr><td>商品起始價格</td><td><input type="text" id="price" name="price"/></td></tr>
+<tr><td>每次加價不可低於的價格</td><td><input type="text" id="low" name="low"/></td></tr>
+
+<tr><td colspan="2" style="text-align:center"><input type="button" value="新增" onclick="adddata()" /></td></tr>
+
+</table>
+</form>
+</body>
+</html>
