@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輸入賬號</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #Import_Id_Box {
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            width: 600px;
+            height: 400px;
+            background-color: #999999;
+        }
+        form {
+            font-size: 18px;
+        }
+        button {
+            position: absolute;
+            margin-top: 20px;
+            width: 100px;
+            height: 30px;
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="Import_Id_Box">
+        <form action="./Login_Comfirm.php" method="post">
+            <div class="Input_Row">
+                <label>賬號：</label>
+                <input type="text" name="User_Id">
+            </div>
+            <button type="submit">登錄</button>
+        </form>
+    </div>
+</body>
+</html>
