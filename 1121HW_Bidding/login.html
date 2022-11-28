@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<style type="text/css">
+
+    table{
+       background-color: #faf6f3;
+       padding: 10px;
+       border-radius: 20px;
+    }
+    div {
+        margin: 100px auto;
+        background-color: #e0dcd9;
+        width: 400px;
+        padding: 50px 100px;
+        border: solid 5px #8f8681;
+    }
+    .ip{
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #8f8681;
+        border-radius: 12px;
+        box-sizing: border-box;
+        }
+    .button {
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+     
+    .button:hover {
+        background-color: #8f8681;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+    a {color: #8f8681;}
+</style>
+</head>
+<body>
+<form name ="f1" action="login.php" method="post">
+    <div align="center">
+        <h2>會員登入</h2>
+        <table cellpadding="5">
+            <tr><td align="right">帳號: </td><td align="left"><input class="ip" type="text" name="uid"></td></tr>
+            <tr><td align="right">密碼: </td><td align="left"><input class="ip" type="password" name="upw"></td></tr>
+            <tr><td colspan="2" align="center">
+            <input class="button" type="submit"> <input class="button" type="reset"><br/>
+            <a href="register.html">新會員註冊</a></td></tr>
+        </table>
+    </div>
+</form>
+</body>
+</html>
