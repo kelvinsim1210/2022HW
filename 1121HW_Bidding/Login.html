@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>輸入賬號</title>
+    <title>輸入帳號</title>
 
     <style>
         * {
@@ -12,23 +12,46 @@
             margin: 0;
         }
         #Import_Id_Box {
-            position: absolute;
-            top: 50%;
-            left: 50%; 
-            transform: translate(-50%, -50%);
-            width: 600px;
-            height: 400px;
-            background-color: #999999;
+        margin: 100px auto;
+        background-color: #e0dcd9;
+        width: 400px;
+        padding: 50px 100px;
+        border: solid 5px #8f8681;
         }
         form {
             font-size: 18px;
         }
         button {
-            position: absolute;
-            margin-top: 20px;
-            width: 100px;
-            height: 30px;
-            font-size: 18px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        }
+        button:hover {
+        background-color: #8f8681;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        }
+		.ip{
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #8f8681;
+        border-radius: 12px;
+        box-sizing: border-box;
         }
     </style>
 
@@ -37,10 +60,11 @@
     <div id="Import_Id_Box">
         <form action="./Login_Comfirm.php" method="post">
             <div class="Input_Row">
-                <label>賬號：</label>
-                <input type="text" name="User_Id">
-            </div>
+                <label>帳號：</label>
+                <input class="ip" type="text" name="User_Id">
             <button type="submit">登錄</button>
+			</div>
+            
         </form>
     </div>
 </body>
